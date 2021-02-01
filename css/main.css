@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    background-image: linear-gradient(-180deg, #ffffff, #9bd0f19c);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+#label-container {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+
+.button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 157, 255);
+    margin-bottom: 20px;
+}
+
+.button:hover {
+    background-color: rgb(126, 126, 126);
+    transition: 0.8s;
+}
+
+#webcam-container {
+    padding-bottom: 20px;
+}
