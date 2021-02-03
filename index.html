@@ -12,19 +12,7 @@
 
 <body class="mainBody">
 
-    <div id="main">
-        <h2 class="hidden">Hamburger Menu Icon</h2>
-        <button class="openButton">☰</button>
-    </div>
 
-    <div id="navBar" class="blackBar">
-        <h2 class="hidden">Hamburger Menu Navigation</h2>
-        <button class="closeButton">×</button>
-
-        <a href="index.html">Home</a>
-        <a href="studies.html">Studies</a>
-
-    </div>
 
     <div class="heading">
         <h1>Facial Expressions Detector - Machine Learning</h1>
@@ -93,23 +81,6 @@
 
                 }
             }
-
-            const openButton = document.querySelector('.openButton');
-            const closeButton = document.querySelector('.closeButton');
-
-
-            function openNav() {
-                document.getElementById("navBar").style.width = "250px";
-                document.getElementById("main").style.marginLeft = "250px";
-            }
-
-            function closeNav() {
-                document.getElementById("navBar").style.width = "0";
-                document.getElementById("main").style.marginLeft = "0";
-            }
-
-            openButton.addEventListener('click', openNav);
-            closeButton.addEventListener('click', closeNav);
         </script>
         <div class="basicInfo">
             <h1>Machine Learning</h1>
